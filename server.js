@@ -1,4 +1,5 @@
 var express = require("express");
+var cors = require('cors');
 var expressValidator = require('express-validator');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
@@ -11,6 +12,7 @@ var credentials = require('./utils/credentials.js');
 
 var app = express();
 app.use( bodyParser.json() );
+app.use(cors());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
