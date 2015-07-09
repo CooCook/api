@@ -1,13 +1,13 @@
 {
-  "name": "foodaway",
+  "name": "CooCookAPI",
   "version": "0.0.1",
-  "description": "food sharing network to decrease food waste in brussels",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolas Bauwens",
-  "license": "ISC",
+  "license": "Apache",
   "dependencies": {
     "body-parser": "^1.9.2",
     "cors": "^2.7.1",
